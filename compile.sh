@@ -1,3 +1,3 @@
 while inotifywait -r -q -q -e close_write *;
-    do pandoc Home.md -o home.pdf;
+    do pandoc README.md -o lojban-good-parts.pdf;
 done
